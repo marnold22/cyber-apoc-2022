@@ -21,3 +21,4 @@ Description: Emergency! A space station near Urkir was compromised. Although Urk
 ## DIRTY HIVE
 
 1. > hexedit NTUSER.DAT (Looking for first values to see if they are the same)
+2. Ran RegRipper3.0 to create a log and regrip report.txt

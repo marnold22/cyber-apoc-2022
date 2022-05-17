@@ -1,0 +1,74 @@
+Tue May 17 10:44:33 2022: Hive (C:\Users\marnold\CODE\CTF\htb\cyber-apoc-2022\forensics\Golden_Persistence\NTUSER.DAT) is dirty.
+
+Tue May 17 10:44:33 2022: Log opened.
+Tue May 17 10:44:33 2022: File: C:\Users\marnold\CODE\CTF\htb\cyber-apoc-2022\forensics\Golden_Persistence\NTUSER.DAT
+Tue May 17 10:44:33 2022: Environment set up.
+Tue May 17 10:44:33 2022: Launching adobe v.20200522
+Tue May 17 10:44:33 2022: Launching allowedenum v.20200511
+Tue May 17 10:44:33 2022: Launching appassoc v.20200515
+Tue May 17 10:44:33 2022: Launching appcompatflags v.20200525
+Tue May 17 10:44:33 2022: Launching appkeys v.20200517
+Tue May 17 10:44:33 2022: Launching applets v.20200525
+Tue May 17 10:44:33 2022: Launching apppaths v.20200511
+Tue May 17 10:44:33 2022: Launching appspecific v.20200515
+Tue May 17 10:44:33 2022: Launching appx v.20200427
+Tue May 17 10:44:33 2022: Launching arpcache v.20200515
+Tue May 17 10:44:33 2022: Launching attachmgr v.20200525
+Tue May 17 10:44:33 2022: Launching cached v.20200525
+Tue May 17 10:44:33 2022: Launching cmdproc v.20200515
+Tue May 17 10:44:33 2022: Launching comdlg32 v.20200517
+Tue May 17 10:44:33 2022: Launching compdesc v.20200511
+Tue May 17 10:44:33 2022: Launching DDO v.20140414
+Tue May 17 10:44:33 2022: Launching disablemru v.20190924
+Tue May 17 10:44:33 2022: Launching environment v.20200512
+Tue May 17 10:44:33 2022: Launching featureusage v.20200511
+Tue May 17 10:44:33 2022: [*] Launching heidisql v.20201227
+Tue May 17 10:44:33 2022: [*] Launching iconlayouts v.20211001
+Tue May 17 10:44:33 2022: Launching identities v.20200525
+Tue May 17 10:44:33 2022: Launching injectdll64 v.20200427
+Tue May 17 10:44:33 2022: Launching jumplistdata v.20200517
+Tue May 17 10:44:33 2022: Launching knowndev v.20200515
+Tue May 17 10:44:33 2022: Launching listsoft v.20200517
+Tue May 17 10:44:33 2022: Launching load v.20200517
+Tue May 17 10:44:33 2022: Launching logonstats v.20200517
+Tue May 17 10:44:33 2022: Launching lxss v.20200511
+Tue May 17 10:44:33 2022: Launching mixer v.20200517
+Tue May 17 10:44:33 2022: Launching mmc v.20200517
+Tue May 17 10:44:33 2022: Launching mmo v.20200517
+Tue May 17 10:44:33 2022: Launching mndmru v.20200517
+Tue May 17 10:44:33 2022: Launching mp2 v.20200526
+Tue May 17 10:44:33 2022: Launching mpmru v.20200517
+Tue May 17 10:44:33 2022: Launching  msoffice v.20200518
+Tue May 17 10:44:33 2022: Launching muicache v.20200525
+Tue May 17 10:44:33 2022: Launching nation v.20200517
+Tue May 17 10:44:33 2022: Launching oisc v.20091125
+Tue May 17 10:44:33 2022: Launching onedrivev.20200515
+Tue May 17 10:44:33 2022: Launching osversion v.20200511
+Tue May 17 10:44:33 2022: Launching outlook_homepage v.20201002
+Tue May 17 10:44:33 2022: Launching pendinggpos v.20200427
+Tue May 17 10:44:33 2022: Launching profiler v.20200525
+Tue May 17 10:44:33 2022: Launching pslogging v.20200515
+Tue May 17 10:44:33 2022: Launching psscript v.20200525
+Tue May 17 10:44:33 2022: Launching putty v.20200515
+Tue May 17 10:44:33 2022: Launching recentapps v.20200515
+Tue May 17 10:44:33 2022: Launching recentdocs v.20200427
+Tue May 17 10:44:33 2022: Launching run v.20200511
+Tue May 17 10:44:34 2022: Launching runmru v.20200525
+Tue May 17 10:44:34 2022: Launching runvirtual v.20200427
+Tue May 17 10:44:34 2022: Launching searchscopes v.20200517
+Tue May 17 10:44:34 2022: Launching 7-zip v.20210329
+Tue May 17 10:44:34 2022: Launching shc v.20200427
+Tue May 17 10:44:34 2022: Launching shellfolders v.20200515
+Tue May 17 10:44:34 2022: Launching speech v.20200427
+Tue May 17 10:44:34 2022: Launching sysinternals v.20080324
+Tue May 17 10:44:34 2022: Launching tsclient v.20200518
+Tue May 17 10:44:34 2022: Launching typedpaths v.20200526
+Tue May 17 10:44:34 2022: Launching typedurls v.20200526
+Tue May 17 10:44:34 2022: Launching typedurlstime v.20200526
+Tue May 17 10:44:34 2022: Launching uninstall v.20200525
+Tue May 17 10:44:34 2022: Launching userassist v.20170204
+Tue May 17 10:44:34 2022: Launching wc_shares v.20200515
+Tue May 17 10:44:34 2022: Launching winrar v.20200526
+Tue May 17 10:44:34 2022: Launching winscp v.20201227
+Tue May 17 10:44:34 2022: Launching WinZip v.20200526
+Tue May 17 10:44:34 2022: Launching wordwheelquery v.20200823
