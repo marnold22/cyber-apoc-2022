@@ -11,9 +11,16 @@ Description: Years have passed since Miyuki rescued you from the graveyard. When
 
 ## NOTES
 
-1. CREDIT TO: willwam845 for the help
-2. > nc 46.101.30.188 31958
-3. RESPONSE
+CREDIT TO: willwam845 for the help
+We’re given access to a server which implements the Diffe-Hellman Key Exchange protocol.
+The server sends us the Diffe-Hellman parameters g,p, and generates a private key c and its corresponding public key C=gcmodp. We are then allowed to send a public key M, from which the shared secret is derived as Mcmodp. Our goal is to recover the shared secret, from which we can send the server a message which will get us the flag.
+
+We have free choice over M, and we would like to make it so that for any c, we know the value of Mc, as this is the shared secret.
+Since 1 to the power of anything is 1, we can set M=1, and then we know the shared secret will always be 1.
+After this, we can use the shared secret to encrypt the chosen message, and recover the flag.
+
+1. > nc 46.101.30.188 31958
+2. RESPONSE
 
     ```text
     DEBUG MSG - Generating The Global DH Parameters
@@ -27,8 +34,8 @@ Description: Years have passed since Miyuki rescued you from the graveyard. When
     Enter The Public Key of The Memory:
     ```
 
-4. > for the public key enter: 1
-5. RESPONSE
+3. > for the public key enter: 1
+4. RESPONSE
 
     ```text
     DEBUG MSG - The CPU Calculates The Shared Secret
@@ -37,6 +44,6 @@ Description: Years have passed since Miyuki rescued you from the graveyard. When
     Enter The Encrypted Initialization Sequence:
     ```
 
-6. run apsolve.py to generate the message.hex() that will then be pasted into the Initialization Sequence
-7. > 7fd4794e77290bf65808e95467f284966d71995c16e83da2192aecfd2d0df7a4
-8. RESPONSE: `DEBUG MSG - HTB{7h15_p2070c0l_15_pr0tec73d_8y_D@nb3er_c0pyr1gh7_1aws}`
+5. run apsolve.py to generate the message.hex() that will then be pasted into the Initialization Sequence
+6. > 7fd4794e77290bf65808e95467f284966d71995c16e83da2192aecfd2d0df7a4
+7. RESPONSE: `DEBUG MSG - HTB{7h15_p2070c0l_15_pr0tec73d_8y_D@nb3er_c0pyr1gh7_1aws}`
