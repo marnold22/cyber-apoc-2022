@@ -18,7 +18,7 @@
 
 ## 2. Pwn
 
-- Space Pirate: Entrypoint [COMPLETE]
+- Space Pirate: Entrypoint __ [COMPLETE]
 - Space pirate: Going Deeper
 - Space pirate: Retribution
 - Vault-breaker
@@ -44,7 +44,7 @@
 
 ## 4. Reversing
 
-- WIDE [COMPLETE]
+- WIDE __ [COMPLETE]
 - Omega One
 - Rebuilding
 - Without a Trace
@@ -58,7 +58,7 @@
 ## 5. Forensics
 
 - Puppeteer
-- Golden Persistence [COMPLETE]
+- Golden Persistence __ [COMPLETE]
 - Intergalactic Recovery
 - Automation
 - Free Services
@@ -68,7 +68,7 @@
 
 ## 6. Misc
 
-- Compressor [COMPLETE]
+- Compressor __ [COMPLETE]
 - Matrioshka Brain
 - Fuel Crisis
 - Battle in OrI/On
