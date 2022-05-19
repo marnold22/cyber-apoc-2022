@@ -31,7 +31,7 @@
 
 ## 3. Crypto
 
-- Android-in-the-Middle
+- Android-in-the-Middle __ [COMPLETE-AP]
 - Jenny From The Block
 - The Three-Eyed Oracle
 - How The Columns Have Turned
