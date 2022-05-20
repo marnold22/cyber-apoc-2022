@@ -25,4 +25,12 @@ At this point, I know that my encrypted block is the encryption of â€œAAAAAAA_â€
 
 1. > nc 165.227.224.55 32559
 2. Took An00bRektn's python script and broke it down piece by piece manually sending information to the oracle each time - for learning purposes
-3. RESPONSE: [+] HTB{345y_53cr37_r3c0v3ry}
+3. Python Script
+   1. create (padding) string
+   2. pass that value to the oracle for a encrpyted return
+   3. create (padding + some single char appended to end) string
+   4. pass that value to oracle for another encrypted return
+   5. compare position [64:96] of both return values
+   6. if both strings are equal, then that single char padded at the end is in the original encrypthon
+   7. add the specific character to a list
+   8. Repeat all steps to bruteforce check of all characters in alphabet + nums + symbols (ASCII)
