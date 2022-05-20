@@ -33,7 +33,7 @@
 
 - Android-in-the-Middle __ [COMPLETE-AE]
 - Jenny From The Block
-- The Three-Eyed Oracle
+- The Three-Eyed Oracle __ [COMPLETE-AE]
 - How The Columns Have Turned
 - MOVs Like Jagger
 - Find Marher's Secret
